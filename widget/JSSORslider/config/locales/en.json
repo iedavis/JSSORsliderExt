@@ -1,0 +1,16 @@
+{
+  "resources" : {
+    "imgSlot1Label": "Slot 1 Image",
+    "imgSlot2Label": "Slot 2 Image",
+    "imgSlot3Label": "Slot 3 Image",
+    "imgSlot4Label": "Slot 4 Image",
+    "imgSlot5Label": "Slot 5 Image",
+    "imgSlotHelpText": "Image Path/Name",
+    "lnkSlot1Label": "Slot 1 Link Target",
+    "lnkSlot2Label": "Slot 2 Link Target",
+    "lnkSlot3Label": "Slot 3 Link Target",
+    "lnkSlot4Label": "Slot 4 Link Target",
+    "lnkSlot5Label": "Slot 5 Link Target",
+    "lnkSlotHelpText": "URL Path"
+  }
+}

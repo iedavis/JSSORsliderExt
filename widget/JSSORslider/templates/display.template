@@ -1,0 +1,32 @@
+<div class='col-xs-12'>
+    <div class="jssorImageSize" data-bind="attr:{id: 'JSSOR-' +id()}" style="position: relative; top: 0px; left: 0px;">
+        <!-- Slides Container -->
+        <div class="jssorImageSize" u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;">
+        <!-- ko foreach: { data: heroImages, as: 'heroImage' } -->
+          <!-- ko if: heroImage.link == "" -->
+          <div>
+            <img u='image' data-bind="imageSource: {src: heroImage.url, alt:'Hero ' + $index(), errorSrc:'/img/no-image.jpg', errorAlt:'No Image ' + $index()}"/>
+          </div>
+          <!-- /ko -->
+          <!-- ko if: heroImage.link != "" -->
+          <div>
+          <a data-bind="attr: {href: heroImage.link}" >
+            <img u='image' data-bind="imageSource: {src: heroImage.url, alt:'Hero ' + $index(), errorSrc:'/img/no-image.jpg', errorAlt:'No Image ' + $index()}"/>
+          </a>
+          </div>
+          <!-- /ko -->
+        <!-- /ko -->
+        </div>
+    
+        <!-- ko if: showArrows() -->
+        <span u="arrowleft" class="jssorArrowSprite jssorLeft" style="width: 45px; height: 45px; top: 123px; left: 8px;"></span>
+        <span u="arrowright" class="jssorArrowSprite jssorRight" style="width: 45px; height: 45px; top: 123px; right: 8px"></span>
+        <!-- /ko -->
+    
+        <!-- ko if: showBullets() -->
+        <div u="navigator" class="jssorBullet" style="position: absolute; bottom: 16px; right: 10px;">
+            <div u="prototype" style="POSITION: absolute; WIDTH: 12px; HEIGHT: 12px;"></div>
+        </div>
+        <!-- /ko -->
+    </div>
+</div>

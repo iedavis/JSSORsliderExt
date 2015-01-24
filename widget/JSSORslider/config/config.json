@@ -1,0 +1,75 @@
+{
+    "widgetDescriptorName": "JSSOR Slider",
+    "properties": [
+        {
+            "id": "imgSlot1",
+            "type": "stringType",
+            "name": "imgSlot1",
+            "labelResourceId": "imgSlot1Label",
+            "helpTextResourceId": "imgSlotHelpText"
+        },
+        {
+            "id": "lnkSlot1",
+            "type": "stringType",
+            "name": "lnkSlot1",
+            "labelResourceId": "lnkSlot1Label",
+            "helpTextResourceId": "lnkSlotHelpText"
+        },
+        {
+            "id": "imgSlot2",
+            "type": "stringType",
+            "name": "imgSlot2",
+            "labelResourceId": "imgSlot2Label",
+            "helpTextResourceId": "imgSlotHelpText"
+        },
+        {
+            "id": "lnkSlot2",
+            "type": "stringType",
+            "name": "lnkSlot2",
+            "labelResourceId": "lnkSlot2Label",
+            "helpTextResourceId": "lnkSlotHelpText"
+        },
+        {
+            "id": "imgSlot3",
+            "type": "stringType",
+            "name": "imgSlot3",
+            "labelResourceId": "imgSlot3Label",
+            "helpTextResourceId": "imgSlotHelpText"
+        },
+        {
+            "id": "lnkSlot3",
+            "type": "stringType",
+            "name": "lnkSlot3",
+            "labelResourceId": "lnkSlot3Label",
+            "helpTextResourceId": "lnkSlotHelpText"
+        },
+        {
+            "id": "imgSlot4",
+            "type": "stringType",
+            "name": "imgSlot4",
+            "labelResourceId": "imgSlot4Label",
+            "helpTextResourceId": "imgSlotHelpText"
+        },
+        {
+            "id": "lnkSlot4",
+            "type": "stringType",
+            "name": "lnkSlot4",
+            "labelResourceId": "lnkSlot4Label",
+            "helpTextResourceId": "lnkSlotHelpText"
+        },
+        {
+            "id": "imgSlot5",
+            "type": "stringType",
+            "name": "imgSlot5",
+            "labelResourceId": "imgSlot5Label",
+            "helpTextResourceId": "imgSlotHelpText"
+        },
+        {
+            "id": "lnkSlot5",
+            "type": "stringType",
+            "name": "lnkSlot5",
+            "labelResourceId": "lnkSlot5Label",
+            "helpTextResourceId": "lnkSlotHelpText"
+        }
+    ]
+}
