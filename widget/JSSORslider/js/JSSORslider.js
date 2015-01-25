@@ -41,6 +41,22 @@ define(
 
         var jssorObj = new $JssorSlider$('JSSOR-' +self.id(), sliderOptions);
 
+        function ScaleSlider() {
+            var parentWidth = $('#JSSOR-' +self.id()).parent().width();
+            if (parentWidth) {
+                jssorObj.$ScaleWidth(parentWidth);
+            }
+            else window.setTimeout(ScaleSlider, 300);
+        }
+
+        ScaleSlider();
+                                        
+        //Scale slider while window load/resize/orientationchange.
+        $(window).bind("load", ScaleSlider);
+        $(window).bind("resize", ScaleSlider);
+        $(window).bind("orientationchange", ScaleSlider);
+        //responsive code end
+
       },
       
       sliderOptions: function() {
